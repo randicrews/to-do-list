@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+    font-size: 65.2%;
+}
+body{
+    background: teal;
+    background: url(leaves-g6e741b409_1920.jpg);
+    
+}
+section{
+    display: flex;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.49);
+    border-radius: 20px;
+    margin: 30px;
+    float: left;
+}
+div.count{
+    width: 20%;
+    border-radius: 500px;
+    border: double rgb(0	9	31	) 15px;
+    text-shadow: 0px 0px 3px black;
+    background-color: rgba(120,	119,	119	, 0.359);
+}
+h1{
+    width: 100%;
+    clear: both;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-size: 7rem;
+    
+
+}
+h3{
+    font-size: 3rem;
+    color: white;
+    margin-top: 50px;
+    padding: 10px;
+    
+}
+h2{
+    font-size: 5rem;
+    color: rgb(255, 123, 0); 
+    margin-bottom: 50px;
+    padding: 10px; 
+}
+form{
+    margin: 30px;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+div.inputs{
+    width: 30%;
+}
+input{
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    font-weight: 500;
+    color: rgb(183, 0, 0);
+    font-size: 1.5rem;
+}
+div.buttons{
+    flex-direction: column;
+    width: 40%;
+    background: none;
+}
+button.buttons{
+    margin-top: 20px;
+}
+button{
+    font-size: 1.5rem;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: white dotted 2px;
+    background: rgba(255, 255, 255, 0.60);
+    color: white;
+}
+strong:hover{
+    color: white;
+}
+button:hover{
+    background: rgba(255, 115, 0, 0.334);
+    color: white;
+}
+strong{
+    color: rgb(183, 0, 0); 
+    font-size: 2rem;
+}
+div.list{
+    width: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+ul{
+    object-position: left;
+}
+li{
+    font-size: 2rem;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    font-weight: 500;
+}
+li.done{
+    color: rgb(255, 123, 0);   
+    text-decoration: line-through;
+}
+
+@media screen and (max-width:1270px){
+}
