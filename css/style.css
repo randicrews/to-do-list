@@ -27,8 +27,19 @@ div.count{
     width: 20%;
     border-radius: 500px;
     border: double rgb(0	9	31	) 15px;
-    text-shadow: 0px 0px 3px black;
-    background-color: rgba(120,	119,	119	, 0.359);
+    text-shadow: 0px 0px 5px black;
+    background-color: rgba(255, 183, 0, 0.385);
+    padding: 20px;
+}
+.shifty{
+    width: 80%;
+}
+.shifty div{
+    margin: 0px;
+    margin-right: 40px;
+    justify-content: center;
+    align-items: center;
+
 }
 h1{
     width: 100%;
@@ -37,7 +48,7 @@ h1{
     margin-top: 30px;
     font-family: 'Satisfy', cursive;
     color: white;
-    text-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 10px black;
     font-size: 7rem;
     
 
@@ -51,7 +62,8 @@ h3{
 }
 h2{
     font-size: 5rem;
-    color: rgb(255, 123, 0); 
+    color: rgb(0	24	34	); 
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
     margin-bottom: 50px;
     padding: 10px; 
 }
@@ -63,7 +75,8 @@ form{
     flex-direction: column;
 }
 div.inputs{
-    width: 30%;
+    width: 40%;
+    padding: 50px;
 }
 input{
     border-radius: 10px;
@@ -77,6 +90,8 @@ div.buttons{
     flex-direction: column;
     width: 40%;
     background: none;
+    margin: 0px;
+    padding: 20px;
 }
 button.buttons{
     margin-top: 20px;
@@ -104,13 +119,15 @@ strong{
     font-size: 2rem;
 }
 div.list{
-    width: 50%;
+    width: 60%;
     justify-content: flex-start;
     align-items: flex-start;
+    
     
 }
 ul{
     object-position: left;
+    padding-top: 10px;
 }
 li{
     font-size: 2rem;
@@ -124,5 +141,28 @@ li.done{
     text-decoration: line-through;
 }
 
-@media screen and (max-width:1270px){
+@media screen and (max-width:900px){
+    div.inputs{
+        width: 80%;        
+    }
+    div.list{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .shifty{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-device-width:900px){
+    div.inputs{
+        width: 80%;        
+    }
+    div.list{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .shifty{
+        flex-direction: column;
+    }
 }
