@@ -1,22 +1,17 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# To-Do List
+A simple to do list with buttons to clear completed tasks and clear all tasks. A counter keeps track of how many tasks need to be completed. 
 
-### Goal: Build a Simple Todo List
+[Check it out here :sparkles:](https://dothethings.netlify.app)
 
-### How to submit your code for review:
+![TODOLIST](https://github.com/randicrews/to-do-list/blob/master/to-do.gif)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## USING 
+- HTML
+- CSS
+- JS
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## TAKEAWAY
+Through building this app, I gained experience with JavaScript and learned how to create user interfaces that allow for dynamic user input.
+
+
+
