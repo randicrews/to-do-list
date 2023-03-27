@@ -3,7 +3,9 @@ A simple to do list with buttons to clear completed tasks and clear all tasks. A
 
 [Check it out here :sparkles:](https://dothethings.netlify.app)
 
-![TODOLIST](https://github.com/randicrews/to-do-list/blob/master/to-do.gif)
+  <a href="https://dothethings.netlify.app" target="_blank">
+    <img src="https://github.com/randicrews/to-do-list/blob/master/to-do.gif"/>
+  </a>
 
 ## USING 
 - HTML
